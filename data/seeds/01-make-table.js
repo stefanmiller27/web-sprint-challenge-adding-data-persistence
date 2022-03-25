@@ -4,7 +4,7 @@ const projects = [
   ]
 
   const resources = [   
-    { resource_name: "Tailwind CSS", resource_description: "style using using a library"},
+    { resource_name: "Tailwind CSS", resource_description: "style using a library"},
     { resource_name: "Global State Management", resource_description: "Redux vs. Hooks"},
     { resource_name: "RDBMS", resource_description: "relational database management sytems"},
     { resource_name: "JavaScript: The Definitive Guide", resource_description: "classes, promises, generators, & more"},
