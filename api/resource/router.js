@@ -12,6 +12,7 @@ router.get("/", async (req, res, next) => {
     }
 });
 
+
 router.post("/", validateResource, async (req, res, next) => {
     try{
         const newResource = await Resource.create(req.body)
