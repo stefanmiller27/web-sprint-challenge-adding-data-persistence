@@ -9,8 +9,8 @@ const server = express()
 
 server.use(express.json())
 
-server.use('/api/project', projectRouter)
-server.use('/api/resource', resourceRouter)
+server.use('/api/projects', projectRouter)
+server.use('/api/resources', resourceRouter)
 server.use('/api/tasks', taskRouter)
 
 server.get('/', (req, res, next) => {//eslint-disable-line
